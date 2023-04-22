@@ -1,0 +1,10 @@
+{
+    "version": "1.0.1",
+     "manifest_version": 3,
+    "name": "social media blocker",
+    "content_scripts":[{
+        "matches": ["<all_urls>"],
+        "js":["Content.js"]
+    }]
+
+}
